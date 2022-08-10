@@ -1,4 +1,7 @@
 {
     "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 13
+    "editor.fontSize": 13,
+    "workbench.colorTheme": "Default Dark+",
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": true
 }
