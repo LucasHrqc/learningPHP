@@ -121,7 +121,7 @@
                     </ul>
                 </div>
                 <div class="modulo vermelho">
-                    <h3>Módulo 09 - Includes</h3>
+                    <h3>Módulo 10 - Includes</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=namespace&file=basico">Exemplo Basico</a></li>
                         <li><a href="exercicio.php?dir=namespace&file=sub_namespaces">Sub Namespaces</a></li>
@@ -129,7 +129,7 @@
                     </ul>
                 </div>
                 <div class="modulo azul">
-                    <h3>Módulo 10 - Tratamento de Erros</h3>
+                    <h3>Módulo 11 - Tratamento de Erros</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=tratamento_erro&file=try_catch">Try & Catch</a></li>
                         <li><a href="exercicio.php?dir=tratamento_erro&file=erros_personalizados">Erros Personalizados</a></li>
@@ -138,7 +138,7 @@
                     </ul>
                 </div>
                 <div class="modulo laranja">
-                    <h3>Módulo 11 - Sessão & Cookies</h3>
+                    <h3>Módulo 12 - Sessão & Cookies</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=sessao&file=basico_sessao">Sessão</a></li>
                         <li><a href="exercicio.php?dir=sessao&file=gerenciando_sessao">Gerenciando Sessão</a></li>

@@ -1,3 +1,17 @@
+<?php
+session_start();
+
+/* 
+    If there's no user in this session, then it's suppose to go to
+    the login page.
+*/
+
+if(!$_SESSION['usuario']) {
+    header('Location: login.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +25,10 @@
         <h1>Curso PHP</h1>
         <h2>Índice dos Exercícios</h2>
     </header>
+    <nav class="navegacao">
+        <span class="usuario">Usuário: <?= $_SESSION['usuario'] ?></span>
+        <a class="vermelho" href="logout.php">Sair</a>
+    </nav>
     <main class="principal">
         <div class="conteudo">
             <?php require_once('menu.php'); ?>
