@@ -1,6 +1,6 @@
 <?php
 /*
-    Criando a lógica para erros do login
+    Criando a lógica para erros dos logins
 */
 ini_set('display_errors', 0);
 session_start();
