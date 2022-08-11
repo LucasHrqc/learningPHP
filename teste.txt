@@ -1,0 +1,3 @@
+Valor inicial 
+Segunda linha 
+novas informações adicionadas com append.
