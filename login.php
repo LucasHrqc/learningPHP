@@ -5,6 +5,10 @@
 ini_set('display_errors', 0);
 session_start();
 
+if($_COOKIE['usuario']) {
+    $_SESSION['usuario'] = $_COOKIE['usuario'];
+}
+
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
@@ -29,6 +33,8 @@ if(($_POST['email'])) {
         if ($emailValido and $senhaValida) {
             $_SESSION['erros'] = null;
             $_SESSION['usuario'] = $usuario['nome'];
+            $exp = time() + 60 * 60 * 24 * 30;
+            setcookie('usuario', $usuario['nome'], $exp);
             header('Location: http://php.localhost/index.php');
         }
     }

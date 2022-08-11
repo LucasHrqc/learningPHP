@@ -1,6 +1,10 @@
 <?php
 session_start();
 
+if($_COOKIE['usuario']) {
+    $_SESSION['usuario'] = $_COOKIE['usuario'];
+}
+
 /* 
     If there's no user in this session, then it's suppose to go to
     the login page.

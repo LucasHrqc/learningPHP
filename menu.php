@@ -144,4 +144,10 @@
                         <li><a href="exercicio.php?dir=sessao&file=gerenciando_sessao">Gerenciando Sessão</a></li>
                     </ul>
                 </div>
+                <div class="modulo verde">
+                    <h3>Módulo 13 - API</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=api&file=datas_01">Datas #01</a></li>
+                    </ul>
+                </div>
             </nav>
