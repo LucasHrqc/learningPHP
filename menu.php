@@ -156,4 +156,10 @@
                         <li><a href="exercicio.php?dir=api&file=imagens">Imagens</a></li>
                     </ul>
                 </div>
+                <div class="modulo roxo">
+                    <h3>Módulo 14 - Forms</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=formulario&file=formulario">Formularios</a></li>
+                    </ul>
+                </div>
             </nav>

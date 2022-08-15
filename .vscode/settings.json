@@ -1,12 +1,12 @@
 {
     "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 12.5,
+    "editor.fontSize": 13,
     "workbench.colorTheme": "Default Dark+",
     "editor.fontWeight": "380",
     "editor.fontLigatures": true,
     "workbench.preferredDarkColorTheme": "One Dark Pro",
     "workbench.colorCustomizations": {
-
+        "editor.background": "#263238"
     },
     "materialTheme.accent": "Blue",
     "editor.lineHeight": 23
