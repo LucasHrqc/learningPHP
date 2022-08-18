@@ -162,4 +162,10 @@
                         <li><a href="exercicio.php?dir=formulario&file=formulario">Formularios</a></li>
                     </ul>
                 </div>
+                <div class="modulo azul">
+                    <h3>Módulo 15 - Banco de Dados</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=db&file=criar_banco">Banco de Dados</a></li>
+                    </ul>
+                </div>
             </nav>
