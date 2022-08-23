@@ -166,6 +166,9 @@
                     <h3>Módulo 15 - Banco de Dados</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=db&file=criar_banco">Banco de Dados</a></li>
+                        <li><a href="exercicio.php?dir=db&file=criar_tabela">Criando Tabelas</a></li>
+                        <li><a href="exercicio.php?dir=db&file=inserir_1">Inserindo Dados</a></li>
+                        <li><a href="exercicio.php?dir=db&file=consultar">Consulta de Registros</a></li>
                     </ul>
                 </div>
             </nav>

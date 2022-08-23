@@ -13,17 +13,17 @@ echo '<small><br>';
 require_once "conexao.php";
 
 // Chamando a função para criar o banco
-$connection = novaConexao(null);
+$connection = newConnection(null);
 // Comando para criar o banco de dados entitulado curso_php
-$sql = 'CREATE DATABASE curso_php';
+$sql = 'CREATE DATABASE IF NOT EXISTS curso_php';
 // Fazendo consulta no banco de dados e fechanodo:
 
 $result = $connection->query($sql);
 
-if($resultado) {
-    echo "Sucesso :)";
+if($result) {
+    echo "Success :)";
 } else {
-    echo "Erro: " . $connection->error;
+    echo "Error: " . $connection->error;
 }
 
 $connection->close();

@@ -4,7 +4,7 @@
     Criando banco de dados. 
 */
 
-function novaConexao($banco = 'curso_php'){
+function newConnection($banco = 'curso_php'){
     $server = '127.0.0.1';
     $user = 'root';
     $password = '';
