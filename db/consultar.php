@@ -18,7 +18,7 @@ $sql = "SELECT id, nome, nascimento, email FROM cadastro";
 // Creating the connection in Database
 $connection = newConnection();
 $result = $connection->query($sql);
-
+var_dump($result->fetch_assoc());
 $registers = [];
 
 // Using fetch_assoc to get every single column of the database

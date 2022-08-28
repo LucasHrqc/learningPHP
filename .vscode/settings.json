@@ -1,13 +1,4 @@
 {
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 13,
-    "workbench.colorTheme": "Default Dark+",
-    "editor.fontWeight": "300",
-    "editor.fontLigatures": true,
-    "workbench.preferredDarkColorTheme": "One Dark Pro",
-    "workbench.colorCustomizations": {
-        "editor.background": "#0F111A"
-    },
-    "materialTheme.accent": "Blue",
-    "editor.lineHeight": 28
+    "editor.fontSize": 12,
+    "editor.fontFamily": "JetBrains Mono"
 }
