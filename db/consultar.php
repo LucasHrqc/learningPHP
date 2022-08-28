@@ -49,7 +49,7 @@ echo '</small></small><hr>';
     <tr>
         <td class="text-center"><?= $register['id']?></td>
         <td class="text-center"><?= $register['nome']?></td>
-        <td class="text-center"><?= $register['nascimento']?></td>
+        <td class="text-center"><?= date('d/m/Y', strtotime($register['nascimento'])) ?></td>
         <td class="text-center"><?= $register['email']?></td>
     </tr>
     <?php endforeach ?>
@@ -59,8 +59,12 @@ echo '</small></small><hr>';
 <style>
 hr {
     width: 400px;
-        margin: 15px 0px 5px 0px;
+    margin: 15px 0px 5px 0px;
     }
+
+table {
+    font-size: 1.2rem;
+}
 
 </style>
 
